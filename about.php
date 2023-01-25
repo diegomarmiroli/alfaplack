@@ -18,10 +18,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,7 +63,7 @@
     </div>
     <!-- Topbar End -->
 
-    <?php require_once('../modules/navbar.php') ?>
+    <?php require_once('view/modules/navbar.php') ?>
 
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
@@ -223,7 +223,7 @@
     </div>
     <!-- Features End -->
 
-    <?php require_once('../modules/footer.php') ?>
+    <?php require_once('view/modules/footer.php') ?>
 
 
     <!-- Back to Top -->
@@ -243,7 +243,7 @@
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="js/constants.js"></script>
 </body>
 
 </html>

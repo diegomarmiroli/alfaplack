@@ -11,17 +11,17 @@
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index" class="nav-item nav-link">Home</a>
-                        <a href="view/pages/about.php" class="nav-item nav-link active">About</a>
-                        <a href="view/pages/service.php" class="nav-item nav-link">Services</a>
-                        <a href="view/pages/pricing.php" class="nav-item nav-link">Pricing</a>
+                        <a href="about" class="nav-item nav-link active">About</a>
+                        <a href="service" class="nav-item nav-link">Services</a>
+                        <a href="pricing" class="nav-item nav-link">Pricing</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="view/pages/blog.php" class="dropdown-item">Blog Grid</a>
-                                <a href="view/pages/single.php" class="dropdown-item">Blog Detail</a>
+                                <a href="blog" class="dropdown-item">Blog Grid</a>
+                                <a href="single" class="dropdown-item">Blog Detail</a>
                             </div>
                         </div>
-                        <a href="view/pages/contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
