@@ -3,7 +3,8 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="">
-                    <h1 class="text-secondary mb-3"><span class="text-white">DRY</span>ME</h1>
+                    <img class="mb-3" height="50" src="img/logos/logo_rectangular.png" alt="Logo empresa Alfa Plack Venta de placas antihumedad y servicio de colocación">
+                    <!-- <h1 class="text-secondary mb-3"><span class="text-white">DRY</span>ME</h1> -->
                 </a>
                 <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sit no, sed kasd et ipsum dolor duo dolor</p>
                 <div class="d-flex justify-content-start mt-4">
@@ -48,8 +49,7 @@
     </div>
     <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
         <p class="m-0 text-center text-white">
-            &copy; <a class="text-white font-weight-medium" href="#">Your Site Name</a>. All Rights Reserved. Designed by
-            <a class="text-white font-weight-medium" href="https://htmlcodex.com">HTML Codex</a>
+            &copy; <?php echo date('Y') ?> <a class="text-white font-weight-medium" href="#">Diego Marmiroli</a>. Todos los derechos reservados.
         </p>
     </div>
     <!-- Footer End -->
