@@ -2,7 +2,7 @@
     <div class="container-fluid bg-oscuro py-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <!--<div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
                         <a class="text-white pr-3" href="">FAQs</a>
                         <span class="text-white">|</span>

@@ -20,3 +20,17 @@
 .bg-terciario {
     background-color: var(--logo-color-terciario);
 }
+
+#subscription-button{
+    background: white;
+    width: 75%;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+#subscription-button:hover{
+    background: #f0932b;
+    color: black;
+    width: 100%;
+    border-radius: 0;
+}

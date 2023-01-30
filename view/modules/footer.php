@@ -41,7 +41,7 @@
                         <input type="email" class="form-control border-0" placeholder="Ingrese su email" required="required" />
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-lg bg-white border-0 rounded-pill" id="subscription-button" type="submit">Suscribirse  <i class="fa-regular fa-paper-plane"></i></button>
+                        <button class="btn btn-lg border-0" id="subscription-button" type="submit">Suscribirse  <i class="fa-regular fa-paper-plane"></i></button>
                     </div>
                 </form>
             </div>
