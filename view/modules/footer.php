@@ -1,5 +1,5 @@
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-oscuro text-white mt-5 pt-5 px-sm-3 px-md-5">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="">
@@ -15,33 +15,33 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Get In Touch</h4>
-                <p>Dolor clita stet nonumy clita diam vero, et et ipsum diam labore</p>
+                <h4 class="text-white mb-4">Contacto</h4>
+                <!-- <p>Dolor clita stet nonumy clita diam vero, et et ipsum diam labore</p> -->
                 <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
                 <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Quick Links</h4>
+                <h4 class="text-white mb-4">Accesos rápidos</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Pricing</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    <a class="text-white mb-2" href="index"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="about"><i class="fa fa-angle-right mr-2"></i>Sobre nosotros</a>
+                    <a class="text-white mb-2" href="service"><i class="fa fa-angle-right mr-2"></i>Servicios</a>
+                    <!-- <a class="text-white mb-2" href="pricing"><i class="fa fa-angle-right mr-2"></i>Pricing</a> -->
+                    <a class="text-white" href="contact"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Newsletter</h4>
+                <h4 class="text-white mb-4">Novedades</h4>
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
+                        <input type="text" class="form-control border-0" placeholder="Ingrese su nombre" required="required" />
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
+                        <input type="email" class="form-control border-0" placeholder="Ingrese su email" required="required" />
                     </div>
-                    <div>
-                        <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-lg bg-white border-0 rounded-pill" id="subscription-button" type="submit">Suscribirse  <i class="fa-regular fa-paper-plane"></i></button>
                     </div>
                 </form>
             </div>

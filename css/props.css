@@ -1,0 +1,22 @@
+:root {
+    --logo-color-primario: #008abf;
+    --logo-color-secundario: #818183;
+    --logo-color-terciario: #97989a;
+    --primario-oscuro: #133340;
+}
+
+.bg-oscuro {
+    background-color: var(--primario-oscuro);
+}
+
+.bg-primario {
+    background-color: var(--logo-color-primario);
+}
+
+.bg-secundario {
+    background-color: var(--logo-color-secundario);
+}
+
+.bg-terciario {
+    background-color: var(--logo-color-terciario);
+}

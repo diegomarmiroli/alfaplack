@@ -60,29 +60,29 @@
     <div class="container-fluid contact-info mt-5 mb-4">
         <div class="container" style="padding: 0 30px;">
             <div class="row">
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex">
                         <i class="fa fa-2x fa-map-marker-alt text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
-                            <h5 class="text-white font-weight-medium">Our Location</h5>
+                            <h5 class="text-white font-weight-medium">Nuestra ubicación</h5>
                             <p class="m-0 text-white">123 Street, New York, USA</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0" style="height: 100px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex text-left">
                         <i class="fa fa-2x fa-envelope text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
-                            <h5 class="text-white font-weight-medium">Email Us</h5>
+                            <h5 class="text-white font-weight-medium">Email de contacto</h5>
                             <p class="m-0 text-white">info@example.com</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex text-left">
                         <i class="fa fa-2x fa-phone-alt text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
-                            <h5 class="text-white font-weight-medium">Call Us</h5>
+                            <h5 class="text-white font-weight-medium">Llámanos</h5>
                             <p class="m-0 text-white">+012 345 6789</p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
 
 
     <!-- Pricing Plan Start -->
-    <div class="container-fluid pt-5 pb-3">
+    <!-- <div class="container-fluid pt-5 pb-3">
         <div class="container">
             <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Our Pricing Plan</h6>
             <h1 class="display-4 text-center mb-5">The Best Price</h1>
@@ -325,12 +325,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Pricing Plan End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container">
             <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Testimonial</h6>
             <h1 class="display-4 text-center mb-5">Our Clients Say</h1>
@@ -369,12 +369,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
     <!-- Blog Start -->
-    <div class="container-fluid mt-5 pb-2">
+    <!-- <div class="container-fluid mt-5 pb-2">
         <div class="container">
             <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Our Blog</h6>
             <h1 class="display-4 text-center mb-5">Latest From Blog</h1>
@@ -429,7 +429,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Blog End -->
 
     <?php require_once('view/modules/footer.php') ?>
@@ -438,9 +438,9 @@
     <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
+    <?php require_once('view/modules/script-tags.php') ?>
+
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
@@ -450,8 +450,6 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/constants.js"></script>
 </body>
 
 </html>

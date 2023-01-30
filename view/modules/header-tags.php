@@ -5,7 +5,7 @@
 <link href="img/logos/logo_cuadrado.png" rel="icon">
 
 <!-- Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet"> -->
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,3 +13,6 @@
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Propios -->
+<link rel="stylesheet" href="css/props.css">
