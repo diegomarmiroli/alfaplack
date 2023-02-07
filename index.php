@@ -60,7 +60,7 @@
     <div class="container-fluid contact-info mt-5 mb-4">
         <div class="container" style="padding: 0 30px;">
             <div class="row">
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-primario mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex">
                         <i class="fa fa-2x fa-map-marker-alt text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-oscuro mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex text-left">
                         <i class="fa fa-2x fa-envelope text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
+                <div class="col-md-4 d-flex align-items-center justify-content-center bg-primario mb-4 mb-lg-0" style="height: 100px; border-radius: 50px;">
                     <div class="d-inline-flex text-left">
                         <i class="fa fa-2x fa-phone-alt text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">

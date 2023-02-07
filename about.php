@@ -20,7 +20,7 @@
     <?php require_once('view/modules/navbar.php') ?>
 
     <!-- Page Header Start -->
-    <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
+    <div class="page-header container-fluid bg-primario pt-2 pt-lg-5 pb-2 mb-5">
         <div class="container py-5">
             <div class="row align-items-center py-4">
                 <div class="col-md-6 text-center text-md-left">
@@ -95,8 +95,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center mb-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4"
-                            style="width: 150px; height: 150px; border-width: 15px !important;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 150px; height: 150px; border-width: 15px !important;">
                             <h2 class="display-2 text-secondary m-0">1</h2>
                         </div>
                         <h3 class="font-weight-bold m-0 mt-2">Order Place</h3>
@@ -104,8 +103,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center mb-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4"
-                            style="width: 150px; height: 150px; border-width: 15px !important;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 150px; height: 150px; border-width: 15px !important;">
                             <h2 class="display-2 text-secondary m-0">2</h2>
                         </div>
                         <h3 class="font-weight-bold m-0 mt-2">Free Pick Up</h3>
@@ -113,8 +111,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center mb-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4"
-                            style="width: 150px; height: 150px; border-width: 15px !important;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 150px; height: 150px; border-width: 15px !important;">
                             <h2 class="display-2 text-secondary m-0">3</h2>
                         </div>
                         <h3 class="font-weight-bold m-0 mt-2">Dry Cleaning</h3>
@@ -122,8 +119,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center mb-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4"
-                            style="width: 150px; height: 150px; border-width: 15px !important;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 150px; height: 150px; border-width: 15px !important;">
                             <h2 class="display-2 text-secondary m-0">4</h2>
                         </div>
                         <h3 class="font-weight-bold m-0 mt-2">Free Delivery</h3>
@@ -165,8 +161,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div
-                        class="d-flex flex-column align-items-center justify-content-center bg-secondary h-100 py-5 px-3">
+                    <div class="d-flex flex-column align-items-center justify-content-center bg-secondary h-100 py-5 px-3">
                         <i class="fa fa-5x fa-certificate text-white mb-5"></i>
                         <h1 class="display-1 text-white mb-3">10+</h1>
                         <h1 class="text-white m-0">Years Experience</h1>
@@ -184,6 +179,7 @@
     <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
+    <?php require_once('view/modules/script-tags.php') ?>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -196,8 +192,6 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/constants.js"></script>
 </body>
 
 </html>
